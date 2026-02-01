@@ -119,32 +119,29 @@
               - button "Redo" [ref=e128] [cursor=pointer]:
                 - img [ref=e129]
           - generic [ref=e131]:
-            - textbox "Input Your Singlish Text Here." [active] [ref=e132]: mama potha kiyawanawa
+            - textbox "Input Your Singlish Text Here." [active] [ref=e132]: mama heta magazine eka miladi ganna wa
             - list [ref=e134]:
-              - listitem [ref=e135] [cursor=pointer]: කියwඅණwඅ
-              - listitem [ref=e136] [cursor=pointer]: කියwඅනwඅ
-              - listitem [ref=e137] [cursor=pointer]: ඛියwඅණwඅ
-              - listitem [ref=e138] [cursor=pointer]: ඛියwඅනwඅ
-          - generic [ref=e139]:
-            - button "Open File" [ref=e140] [cursor=pointer]:
+              - listitem [ref=e135] [cursor=pointer]: wඅ
+          - generic [ref=e136]:
+            - button "Open File" [ref=e137] [cursor=pointer]:
+              - img [ref=e138]
+            - button "Copy" [ref=e140] [cursor=pointer]:
               - img [ref=e141]
-            - button "Copy" [ref=e143] [cursor=pointer]:
+            - button "Cut" [ref=e143] [cursor=pointer]:
               - img [ref=e144]
-            - button "Cut" [ref=e146] [cursor=pointer]:
+            - button "Paste" [ref=e146] [cursor=pointer]:
               - img [ref=e147]
-            - button "Paste" [ref=e149] [cursor=pointer]:
+            - button "Clear" [ref=e149] [cursor=pointer]:
               - img [ref=e150]
-            - button "Clear" [ref=e152] [cursor=pointer]:
-              - img [ref=e153]
-        - button "Swap Languages" [ref=e156] [cursor=pointer]:
-          - img [ref=e157]
-        - generic [ref=e159]:
-          - generic [ref=e160]: Sinhala
-          - generic [ref=e161]: මම පොත කියwඅනwඅ
-          - generic [ref=e162]:
-            - button "Copy" [ref=e163] [cursor=pointer]:
+        - button "Swap Languages" [ref=e153] [cursor=pointer]:
+          - img [ref=e154]
+        - generic [ref=e156]:
+          - generic [ref=e157]: Sinhala
+          - generic [ref=e158]: මම හෙට magazine එක මිලඩි ගන්න wඅ
+          - generic [ref=e159]:
+            - button "Copy" [ref=e160] [cursor=pointer]:
+              - img [ref=e161]
+            - button "Clear" [ref=e163] [cursor=pointer]:
               - img [ref=e164]
-            - button "Clear" [ref=e166] [cursor=pointer]:
-              - img [ref=e167]
-      - button "Clear" [ref=e170] [cursor=pointer]: 🗑️ Clear
+      - button "Clear" [ref=e167] [cursor=pointer]: 🗑️ Clear
 ```
