@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('Pos_Fun_0001', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
-  const input = 'mama potha kiyawanawa';
+  const input = 'mama potha kiyavanavaa';
   const expected = 'මම පොත කියවනවා';
 
   await page.getByPlaceholder('Input Your Singlish Text Here.').fill(input);
@@ -11,7 +11,7 @@ test('Pos_Fun_0001', async ({ page }) => {
 
 test('Pos_Fun_0002', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
-  const input = 'mama heta magazine eka miladi ganna wa';
+  const input = 'mama heta magazine eka miladhi gannavaa';
   const expected = 'මම හෙට magazine එක මිලදි ගන්නවා';
 
   await page.getByPlaceholder('Input Your Singlish Text Here.').fill(input);
@@ -20,7 +20,7 @@ test('Pos_Fun_0002', async ({ page }) => {
 
 test('Pos_Fun_0003', async ({ page }) => {
   await page.goto('https://www.swifttranslator.com/');
-  const input = 'oya ehe gihin thiyenawada';
+  const input = 'oyaa ehee gihin thiyenavadha';
   const expected = 'ඔයා එහේ ගිහින් තියෙනවද';
 
   await page.getByPlaceholder('Input Your Singlish Text Here.').fill(input);
